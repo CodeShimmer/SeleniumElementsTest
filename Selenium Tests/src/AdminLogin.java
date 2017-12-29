@@ -33,6 +33,7 @@ public class AdminLogin {
 			System.out.println("Login Unsuccessful -Failed");
 		}
 		/*driver.close();*/ // Closes the Browser
+		driver.quit();
 	}
 
 }
