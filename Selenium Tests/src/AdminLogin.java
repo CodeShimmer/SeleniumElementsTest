@@ -32,6 +32,43 @@ public class AdminLogin {
 		} else {
 			System.out.println("Login Unsuccessful -Failed");
 		}
+		
+		driver.findElement(By.id("Email")).sendKeys("gcrindia");
+		
+		WebElement Email = driver.findElement(By.id("Email"));
+		Email.sendKeys("gcrindia");
+		
+		//id locator for Button
+
+		WebElement Email = driver.findElement(By.id("signIn"));
+		Email.click();
+
+		
+		driver.findElement(By.id("signIn")).click();
+//name
+
+   		driver.findElement(By.name("Email")).sendKeys("gcrindia");
+		       
+		WebElement e = driver.findElement(By.name("Email"));
+		e.sendKeys("gcrindia");
+		
+		WebElement e = driver.findElement(By.name("signIn"));
+		e.click();
+		//className
+
+		driver.findElement(By.className("textboxcolor")).sendKeys("Hyderabad");
+		//tagName
+
+		driver.findElement(By.tagName("input")).sendKeys("Hyderabad");
+		//linkText
+
+		driver.findElement(By.linkText("Gmail")).click();
+		// paritialLinkText
+
+		driver.findElement(By.partialLinkText("Gma")).click();
+		//cssSelector
+
+		
 		/*driver.close();*/ // Closes the Browser
 		driver.quit();
 	}
