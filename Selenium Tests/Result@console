@@ -1,0 +1,22 @@
+1514568356381	geckodriver	INFO	geckodriver 0.19.1
+1514568356522	geckodriver	INFO	Listening on 127.0.0.1:27390
+1514568358068	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\jonna\\AppData\\Local\\Temp\\rust_mozprofile.sBzhAKzdLobB"
+1514568362714	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\jonna\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514568370181	Marionette	INFO	Listening on port 50449
+1514568370992	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514568371206	Marionette	DEBUG	Register listener.js for window 4294967297
+Dec 29, 2017 12:26:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1514568371681	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514568372357	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514568372358	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514568373579	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.gcrit.com/build3/admin/login.php?osCAdminID=4d61uqvj3lfbmferdr5gv8huu5"
+1514568373760	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.gcrit.com/build3/admin/login.php?osCAdminID=4d61uqvj3lfbmferdr5gv8huu5"
+1514568375274	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.gcrit.com/build3/admin/login.php?osCAdminID=4d61uqvj3lfbmferdr5gv8huu5"
+1514568375671	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.gcrit.com/build3/admin/login.php?osCAdminID=4d61uqvj3lfbmferdr5gv8huu5"
+1514568375674	Marionette	DEBUG	Received DOM event "unload" for "http://www.gcrit.com/build3/admin/login.php?osCAdminID=4d61uqvj3lfbmferdr5gv8huu5"
+1514568376036	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.gcrit.com/build3/admin/index.php"
+1514568376095	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.gcrit.com/build3/admin/index.php"
+Login Successful -Passed
