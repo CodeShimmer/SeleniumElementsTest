@@ -1,11 +1,12 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class AdminLogin {
 
-	@SuppressWarnings("deprecation")
+	
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
@@ -14,7 +15,9 @@ public class AdminLogin {
 		System.setProperty("webdriver.gecko.driver", "D:\\Softwares _ N_ Plugins_for_Programming\\geckodriver-v0.19.1-win64\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver(); // Launches Firefox Browser with blank url
 		
-		
+		/*System.setProperty("webdriver.chrome.driver", "D:\\Softwares _ N_ Plugins_for_Programming\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver(); // Launches Chrome Browser with blank url
+*/		
 		/*//if you update the Path system variable
 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 		capabilities.setCapability("marionette", true);
@@ -32,43 +35,6 @@ public class AdminLogin {
 		} else {
 			System.out.println("Login Unsuccessful -Failed");
 		}
-		
-		driver.findElement(By.id("Email")).sendKeys("gcrindia");
-		
-		WebElement Email = driver.findElement(By.id("Email"));
-		Email.sendKeys("gcrindia");
-		
-		//id locator for Button
-
-		WebElement Email = driver.findElement(By.id("signIn"));
-		Email.click();
-
-		
-		driver.findElement(By.id("signIn")).click();
-//name
-
-   		driver.findElement(By.name("Email")).sendKeys("gcrindia");
-		       
-		WebElement e = driver.findElement(By.name("Email"));
-		e.sendKeys("gcrindia");
-		
-		WebElement e = driver.findElement(By.name("signIn"));
-		e.click();
-		//className
-
-		driver.findElement(By.className("textboxcolor")).sendKeys("Hyderabad");
-		//tagName
-
-		driver.findElement(By.tagName("input")).sendKeys("Hyderabad");
-		//linkText
-
-		driver.findElement(By.linkText("Gmail")).click();
-		// paritialLinkText
-
-		driver.findElement(By.partialLinkText("Gma")).click();
-		//cssSelector
-
-		
 		/*driver.close();*/ // Closes the Browser
 		driver.quit();
 	}
